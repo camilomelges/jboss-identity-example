@@ -26,6 +26,18 @@ wget https://developer.jboss.org/servlet/JiveServlet/download/13422-4-6228/idp.w
 127.0.52.1 fedserver.jboss.com
 ```
 
+- Reset your network interface
+
+```
+sudo ifconfig eth0 down && sudo ifconfig eth0 up
+```
+
+- Obs.: If you don't know what is your network interface
+
+```
+ifconfig -a
+```
+
 - Create profiles for each component of the Single Sign On environment at $JBOSS_HOME/server
 
 ```
