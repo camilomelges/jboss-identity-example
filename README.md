@@ -7,9 +7,16 @@ This article explains how to build a single sign on (SSO) environment using the 
 
 - Downloading [JBoss Application Server 5.1.0.GA](https://sourceforge.net/projects/jboss/files/JBoss/JBoss-5.1.0.GA/jboss-5.1.0.GA.zip/download)
 
+- Extract the downloaded file, the directory created will be the JBOSS_HOME.
+
 - Download [Jboss identity](http://repository.jboss.org/maven2/org/jboss/identity/jboss-identity-platform-jbas/1.0.0.alpha2/jboss-identity-platform-jbas-1.0.0.alpha2.zip)
 
-- Extract the downloaded file, the directory created will be the JBOSS_HOME.
+- Download [test.war](https://developer.jboss.org/servlet/JiveServlet/download/13422-4-6227/test.war) and [idp.war](https://developer.jboss.org/servlet/JiveServlet/download/13422-4-6228/idp.war) to create environments
+
+```
+wget https://developer.jboss.org/servlet/JiveServlet/download/13422-4-6227/test.war && 
+wget https://developer.jboss.org/servlet/JiveServlet/download/13422-4-6228/idp.war
+```
 
 - Then edit your /etc/hosts file (on linux) to resolve some domains for different local ip addresses
 
@@ -27,19 +34,12 @@ cp -rf default sp1 (Service Provider)
 cp -rf default sp2 (Service Provider)
 ```
 
-- Copy the jars inside jboss-identity to lib folders
+- Copy the jars inside Jboss Identity to lib of each service
 
 ```
 cp *.jar JBOSS_HOME/server/sp1/lib
 cp *.jar JBOSS_HOME/server/sp2/lib
 cp *.jar JBOSS_HOME/server/idp/lib
-```
-
-- Download [test.war](https://developer.jboss.org/servlet/JiveServlet/download/13422-4-6227/test.war) and [idp.war](https://developer.jboss.org/servlet/JiveServlet/download/13422-4-6228/idp.war) for create environments
-
-```
-wget https://developer.jboss.org/servlet/JiveServlet/download/13422-4-6227/test.war && 
-wget https://developer.jboss.org/servlet/JiveServlet/download/13422-4-6228/idp.war
 ```
 
 - modify the file:
