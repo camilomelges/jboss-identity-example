@@ -18,7 +18,7 @@ wget https://developer.jboss.org/servlet/JiveServlet/download/13422-4-6227/test.
 wget https://developer.jboss.org/servlet/JiveServlet/download/13422-4-6228/idp.war
 ```
 
-- Then edit your /etc/hosts file (on linux) to resolve some domains for different local ip addresses
+- Edit your /etc/hosts file (on linux) to resolve some domains for different local ip addresses
 
 ```
 127.0.50.1 node1.jboss.com
