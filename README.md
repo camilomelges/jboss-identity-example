@@ -54,6 +54,14 @@ cp *.jar JBOSS_HOME/server/sp2/lib
 cp *.jar JBOSS_HOME/server/idp/lib
 ```
 
+- Copy wars to services deploy folder
+
+```
+cp test.war JBOSS_HOME/server/sp1/deploy
+cp test.war JBOSS_HOME/server/sp2/deploy
+cp idp.war JBOSS_HOME/server/idp/deploy
+```
+
 - modify the file:
 JBOSS_HOME/server/sp2/deploy/test.war/WEB-INF/jboss-idfed.xml
 ```
