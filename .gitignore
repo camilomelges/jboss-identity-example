@@ -1,5 +1,4 @@
-*/temp
-temp/
-tmp/
-*/tmp
-log/*
+**/temp/*
+**/temp/*
+**/tmp/*
+**/log/*
