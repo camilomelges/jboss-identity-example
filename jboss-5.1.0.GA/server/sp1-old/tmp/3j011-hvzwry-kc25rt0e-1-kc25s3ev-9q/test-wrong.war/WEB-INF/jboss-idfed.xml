@@ -1,7 +1,0 @@
-<JBossSP xmlns="urn:jboss:identity-federation:config:1.0">
-              <IdentityURL>http://fedserver.jboss.com:8080/idp</IdentityURL>
-              <ServiceURL>http://node1.jboss.com:8080/test</ServiceURL>
-</JBossSP>
-
-
-
