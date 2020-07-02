@@ -24550,3 +24550,753 @@ DEPLOYMENTS IN ERROR:
 2020-07-02 11:16:10,902 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-node2.jboss.com%2F127.0.53.1-8080
 2020-07-02 11:16:10,928 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-node2.jboss.com%2F127.0.53.1-8009
 2020-07-02 11:16:10,938 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221053)] Started in 40s:964ms
+2020-07-02 11:26:46,779 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2020-07-02 11:26:46,782 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-node2.jboss.com%2F127.0.53.1-8080
+2020-07-02 11:26:46,785 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-node2.jboss.com%2F127.0.53.1-8080
+2020-07-02 11:26:46,786 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-node2.jboss.com%2F127.0.53.1-8009
+2020-07-02 11:26:46,787 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-node2.jboss.com%2F127.0.53.1-8009
+2020-07-02 11:26:46,837 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2020-07-02 11:26:46,878 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2020-07-02 11:26:46,885 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2020-07-02 11:26:46,903 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2020-07-02 11:26:46,908 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2020-07-02 11:26:46,927 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2020-07-02 11:26:46,933 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2020-07-02 11:26:46,955 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2020-07-02 11:26:46,970 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2020-07-02 11:26:46,979 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2020-07-02 11:26:47,040 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss Shutdown Hook) Stopping partition DefaultPartition
+2020-07-02 11:26:47,042 INFO  [org.jboss.cache.RPCManagerImpl] (JBoss Shutdown Hook) Disconnecting and closing the Channel
+2020-07-02 11:26:47,103 INFO  [org.jboss.cache.RPCManagerImpl] (JBoss Shutdown Hook) Stopping the RpcDispatcher
+2020-07-02 11:26:47,180 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss Shutdown Hook) Partition DefaultPartition stopped.
+2020-07-02 11:26:47,183 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss Shutdown Hook) Partition DefaultPartition destroyed.
+2020-07-02 11:26:47,589 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2020-07-02 11:26:47,591 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2020-07-02 11:26:47,592 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2020-07-02 11:26:47,594 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2020-07-02 11:26:47,598 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2020-07-02 11:26:47,600 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2020-07-02 11:26:47,604 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/test
+2020-07-02 11:26:47,607 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2020-07-02 11:26:47,660 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2020-07-02 11:26:47,681 INFO  [org.jboss.jmx.adaptor.snmp.agent.SnmpAgentService] (JBoss Shutdown Hook) SNMP agent stopped
+2020-07-02 11:26:47,799 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2020-07-02 11:26:47,824 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-02 11:26:47,824 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-07-02 11:26:47,825 INFO  [org.quartz.simpl.SimpleThreadPool] (JBoss Shutdown Hook) There are still 84 worker threads active. See javadoc runInThread(Runnable) for a possible explanation
+2020-07-02 11:26:47,826 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-02 11:26:47,957 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2020-07-02 11:26:47,958 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2020-07-02 11:26:48,111 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2020-07-02 11:26:49,329 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
+2020-07-02 11:26:54,784 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://node2.jboss.com:8083/
+2020-07-02 11:26:57,603 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) JBoss Web Services - Stack Native Core
+2020-07-02 11:26:57,603 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) 3.1.2.GA
+2020-07-02 11:26:57,931 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2020-07-02 11:26:58,773 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@25520567[ defaultDomain='jboss' ]
+2020-07-02 11:27:03,160 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1957957411{vfsfile:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/profileservice-secured.jar/}
+2020-07-02 11:27:03,160 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1957957411{vfsfile:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/profileservice-secured.jar/}
+2020-07-02 11:27:03,160 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1957957411{vfsfile:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/profileservice-secured.jar/}
+2020-07-02 11:27:03,160 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@1957957411{vfsfile:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/profileservice-secured.jar/}
+2020-07-02 11:27:03,804 INFO  [org.jboss.iiop.CorbaNamingService] (main) CORBA Naming Started
+2020-07-02 11:27:04,874 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://node2.jboss.com/jndi/rmi://node2.jboss.com:1090/jmxconnector
+2020-07-02 11:27:04,979 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2020-07-02 11:27:05,257 INFO  [org.jboss.jmx.adaptor.snmp.agent.SnmpAgentService] (main) SNMP agent going active
+2020-07-02 11:27:06,313 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (main) Initializing partition DefaultPartition
+2020-07-02 11:27:06,342 INFO  [STDOUT] (JBoss System Threads(1)-3) 
+---------------------------------------------------------
+GMS: address is 127.0.51.1:53280 (cluster=DefaultPartition)
+---------------------------------------------------------
+2020-07-02 11:27:06,488 INFO  [org.jboss.cache.jmx.PlatformMBeanServerRegistration] (main) JBossCache MBeans were successfully registered to the platform mbean server.
+2020-07-02 11:27:06,498 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss System Threads(1)-3) Number of cluster members: 3
+2020-07-02 11:27:06,498 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss System Threads(1)-3) Other members: 2
+2020-07-02 11:27:06,536 INFO  [STDOUT] (main) 
+---------------------------------------------------------
+GMS: address is 127.0.51.1:53280 (cluster=DefaultPartition-HAPartitionCache)
+---------------------------------------------------------
+2020-07-02 11:27:06,600 INFO  [org.jboss.cache.RPCManagerImpl] (main) Received new cluster view: [127.0.50.1:45711|4] [127.0.50.1:45711, 127.0.52.1:51785, 127.0.51.1:53280]
+2020-07-02 11:27:06,625 INFO  [org.jboss.cache.statetransfer.LegacyStateTransferIntegrator] (Incoming-8,127.0.51.1:53280) Using version 4096
+2020-07-02 11:27:06,634 INFO  [org.jboss.cache.RPCManagerImpl] (main) Cache local address is 127.0.51.1:53280
+2020-07-02 11:27:06,636 INFO  [org.jboss.cache.RPCManagerImpl] (main) state was retrieved successfully (in 99 milliseconds)
+2020-07-02 11:27:06,650 INFO  [org.jboss.cache.factories.ComponentRegistry] (main) JBoss Cache version: JBossCache 'Cascabel' 3.1.0.GA
+2020-07-02 11:27:06,651 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (main) Fetching serviceState (will wait for 30000 milliseconds):
+2020-07-02 11:27:06,701 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (main) serviceState was retrieved successfully (in 50 milliseconds)
+2020-07-02 11:27:06,767 INFO  [org.jboss.ha.jndi.HANamingService] (main) Started HAJNDI bootstrap; jnpPort=1100, backlog=50, bindAddress=node2.jboss.com/127.0.51.1
+2020-07-02 11:27:06,771 INFO  [org.jboss.ha.jndi.DetachedHANamingService$AutomaticDiscovery] (main) Listening on /127.0.51.1:1102, group=230.0.0.4, HA-JNDI address=127.0.51.1:1100
+2020-07-02 11:27:07,358 INFO  [org.jboss.invocation.unified.server.UnifiedInvokerHA] (main) Service name is jboss:service=invoker,type=unifiedha
+2020-07-02 11:27:07,738 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2020-07-02 11:27:07,748 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2020-07-02 11:27:07,825 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2020-07-02 11:27:07,855 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2020-07-02 11:27:07,855 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2020-07-02 11:27:07,969 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2020-07-02 11:27:08,068 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2020-07-02 11:27:08,068 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2020-07-02 11:27:08,085 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2020-07-02 11:27:08,294 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2020-07-02 11:27:08,330 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-node2.jboss.com%2F127.0.51.1-8080
+2020-07-02 11:27:08,330 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-node2.jboss.com%2F127.0.51.1-8009
+2020-07-02 11:27:08,343 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2020-07-02 11:27:08,345 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2020-07-02 11:27:08,377 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 46 ms
+2020-07-02 11:27:08,390 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2020-07-02 11:27:08,757 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2020-07-02 11:27:08,757 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2020-07-02 11:27:08,757 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2020-07-02 11:27:08,886 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2020-07-02 11:27:09,044 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2020-07-02 11:27:09,076 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2020-07-02 11:27:09,145 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2020-07-02 11:27:09,161 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2020-07-02 11:27:09,177 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/jms-ra.rar/META-INF/ra.xml
+2020-07-02 11:27:09,189 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/mail-ra.rar/META-INF/ra.xml
+2020-07-02 11:27:09,203 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/quartz-ra.rar/META-INF/ra.xml
+2020-07-02 11:27:09,273 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2020-07-02 11:27:09,311 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.5.2 created.
+2020-07-02 11:27:09,313 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2020-07-02 11:27:09,313 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-07-02 11:27:09,313 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.5.2
+2020-07-02 11:27:09,314 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-07-02 11:27:09,671 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2020-07-02 11:27:09,976 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2020-07-02 11:27:10,096 INFO  [STDOUT] (main) 
+---------------------------------------------------------
+GMS: address is 127.0.51.1:53280 (cluster=MessagingPostOffice-CTRL)
+---------------------------------------------------------
+2020-07-02 11:27:10,156 INFO  [org.jboss.messaging.core.impl.postoffice.GroupMember] (main) org.jboss.messaging.core.impl.postoffice.GroupMember$ControlMembershipListener@74978bfe got new view [127.0.50.1:45711|4] [127.0.50.1:45711, 127.0.52.1:51785, 127.0.51.1:53280], old view is null
+2020-07-02 11:27:10,157 INFO  [org.jboss.messaging.core.impl.postoffice.GroupMember] (main) I am (127.0.51.1:53280)
+2020-07-02 11:27:10,157 INFO  [org.jboss.messaging.core.impl.postoffice.GroupMember] (main) New Members : 3 ([127.0.50.1:45711, 127.0.52.1:51785, 127.0.51.1:53280])
+2020-07-02 11:27:10,157 INFO  [org.jboss.messaging.core.impl.postoffice.GroupMember] (main) All Members : 3 ([127.0.50.1:45711, 127.0.52.1:51785, 127.0.51.1:53280])
+2020-07-02 11:27:10,202 INFO  [STDOUT] (main) 
+---------------------------------------------------------
+GMS: address is 127.0.51.1:7900 (cluster=MessagingPostOffice-DATA)
+---------------------------------------------------------
+2020-07-02 11:27:10,266 ERROR [org.jboss.messaging.util.ExceptionUtil] (main) org.jboss.messaging.core.jmx.MessagingPostOfficeService@7fc5326e startService
+java.lang.IllegalArgumentException: Cannot start post office since there is already a post office in the cluster with the same node id (0). Are you sure you have given each node a unique node id during installation?
+	at org.jboss.messaging.core.impl.postoffice.MessagingPostOffice.start(MessagingPostOffice.java:372)
+	at org.jboss.messaging.core.jmx.MessagingPostOfficeService.startService(MessagingPostOfficeService.java:462)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:376)
+	at org.jboss.system.ServiceMBeanSupport.start(ServiceMBeanSupport.java:269)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:157)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:96)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:138)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:90)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:140)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:90)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:668)
+	at org.jboss.system.microcontainer.ServiceProxy.invoke(ServiceProxy.java:206)
+	at com.sun.proxy.$Proxy39.start(Unknown Source)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:42)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:37)
+	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleInstallAction(SimpleControllerContextAction.java:62)
+	at org.jboss.dependency.plugins.action.AccessControllerContextAction.install(AccessControllerContextAction.java:71)
+	at org.jboss.dependency.plugins.AbstractControllerContextActions.install(AbstractControllerContextActions.java:51)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.system.microcontainer.ServiceControllerContext.install(ServiceControllerContext.java:286)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.ServiceController.doChange(ServiceController.java:688)
+	at org.jboss.system.ServiceController.start(ServiceController.java:460)
+	at org.jboss.system.deployers.ServiceDeployer.start(ServiceDeployer.java:163)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:99)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:46)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1178)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.repository.ProfileDeployAction.install(ProfileDeployAction.java:70)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileAction.install(AbstractProfileAction.java:53)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.install(AbstractProfileService.java:361)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.activateProfile(AbstractProfileService.java:306)
+	at org.jboss.system.server.profileservice.ProfileServiceBootstrap.start(ProfileServiceBootstrap.java:271)
+	at org.jboss.bootstrap.AbstractServerImpl.start(AbstractServerImpl.java:461)
+	at org.jboss.Main.boot(Main.java:221)
+	at org.jboss.Main$1.run(Main.java:556)
+	at java.lang.Thread.run(Thread.java:745)
+2020-07-02 11:27:10,268 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (main) Error installing to Start: name=jboss.messaging:service=PostOffice state=Create mode=Manual requiredState=Installed
+java.lang.IllegalArgumentException: Cannot start post office since there is already a post office in the cluster with the same node id (0). Are you sure you have given each node a unique node id during installation?
+	at org.jboss.messaging.core.impl.postoffice.MessagingPostOffice.start(MessagingPostOffice.java:372)
+	at org.jboss.messaging.core.jmx.MessagingPostOfficeService.startService(MessagingPostOfficeService.java:462)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:376)
+	at org.jboss.system.ServiceMBeanSupport.start(ServiceMBeanSupport.java:269)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:157)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:96)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:138)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:90)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:140)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:90)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:668)
+	at org.jboss.system.microcontainer.ServiceProxy.invoke(ServiceProxy.java:206)
+	at com.sun.proxy.$Proxy39.start(Unknown Source)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:42)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:37)
+	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleInstallAction(SimpleControllerContextAction.java:62)
+	at org.jboss.dependency.plugins.action.AccessControllerContextAction.install(AccessControllerContextAction.java:71)
+	at org.jboss.dependency.plugins.AbstractControllerContextActions.install(AbstractControllerContextActions.java:51)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.system.microcontainer.ServiceControllerContext.install(ServiceControllerContext.java:286)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.ServiceController.doChange(ServiceController.java:688)
+	at org.jboss.system.ServiceController.start(ServiceController.java:460)
+	at org.jboss.system.deployers.ServiceDeployer.start(ServiceDeployer.java:163)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:99)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:46)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1178)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.repository.ProfileDeployAction.install(ProfileDeployAction.java:70)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileAction.install(AbstractProfileAction.java:53)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.install(AbstractProfileService.java:361)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.activateProfile(AbstractProfileService.java:306)
+	at org.jboss.system.server.profileservice.ProfileServiceBootstrap.start(ProfileServiceBootstrap.java:271)
+	at org.jboss.bootstrap.AbstractServerImpl.start(AbstractServerImpl.java:461)
+	at org.jboss.Main.boot(Main.java:221)
+	at org.jboss.Main$1.run(Main.java:556)
+	at java.lang.Thread.run(Thread.java:745)
+2020-07-02 11:27:10,368 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2020-07-02 11:27:10,693 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2020-07-02 11:27:10,696 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2020-07-02 11:27:10,696 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2020-07-02 11:27:10,696 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2020-07-02 11:27:10,696 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2020-07-02 11:27:10,696 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2020-07-02 11:27:10,696 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2020-07-02 11:27:10,696 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2020-07-02 11:27:10,696 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2020-07-02 11:27:10,696 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2020-07-02 11:27:10,696 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2020-07-02 11:27:10,697 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2020-07-02 11:27:10,697 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2020-07-02 11:27:10,697 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2020-07-02 11:27:10,697 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2020-07-02 11:27:10,697 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2020-07-02 11:27:10,697 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2020-07-02 11:27:10,697 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2020-07-02 11:27:10,697 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2020-07-02 11:27:10,697 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2020-07-02 11:27:10,698 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2020-07-02 11:27:10,698 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2020-07-02 11:27:10,698 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2020-07-02 11:27:10,698 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2020-07-02 11:27:10,698 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2020-07-02 11:27:10,698 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2020-07-02 11:27:10,698 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2020-07-02 11:27:10,698 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2020-07-02 11:27:10,698 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2020-07-02 11:27:10,702 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@2adc4c93{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2020-07-02 11:27:10,702 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@7b42aa01{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2020-07-02 11:27:10,702 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@6152e667{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2020-07-02 11:27:10,834 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2020-07-02 11:27:10,847 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2020-07-02 11:27:10,895 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2020-07-02 11:27:10,951 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2020-07-02 11:27:10,952 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2020-07-02 11:27:10,989 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2020-07-02 11:27:11,014 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2020-07-02 11:27:11,015 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2020-07-02 11:27:11,022 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2020-07-02 11:27:11,092 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2020-07-02 11:27:11,130 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2020-07-02 11:27:12,290 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2020-07-02 11:27:12,326 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2020-07-02 11:27:12,371 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/test
+2020-07-02 11:27:12,573 ERROR [org.jboss.system.server.profileservice.ProfileServiceBootstrap] (main) Failed to load profile: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+DEPLOYMENTS MISSING DEPENDENCIES:
+  Deployment "jboss.messaging.connectionfactory:service=ClusterPullConnectionFactory" is missing the following dependencies:
+    Dependency "jboss.messaging:service=PostOffice" (should be in state "Create", but is actually in state "**ERROR**")
+  Deployment "jboss.messaging.connectionfactory:service=ClusteredConnectionFactory" is missing the following dependencies:
+    Dependency "jboss.messaging:service=PostOffice" (should be in state "Create", but is actually in state "**ERROR**")
+  Deployment "jboss.messaging.connectionfactory:service=ConnectionFactory" is missing the following dependencies:
+    Dependency "jboss.messaging:service=PostOffice" (should be in state "Create", but is actually in state "**ERROR**")
+  Deployment "jboss.messaging.destination:name=DLQ,service=Queue" is missing the following dependencies:
+    Dependency "jboss.messaging:service=PostOffice" (should be in state "Create", but is actually in state "**ERROR**")
+  Deployment "jboss.messaging.destination:name=ExpiryQueue,service=Queue" is missing the following dependencies:
+    Dependency "jboss.messaging:service=PostOffice" (should be in state "Create", but is actually in state "**ERROR**")
+
+DEPLOYMENTS IN ERROR:
+  Deployment "jboss.messaging:service=PostOffice" is in error due to the following reason(s): java.lang.IllegalArgumentException: Cannot start post office since there is already a post office in the cluster with the same node id (0). Are you sure you have given each node a unique node id during installation?, **ERROR**
+
+2020-07-02 11:27:12,581 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-node2.jboss.com%2F127.0.51.1-8080
+2020-07-02 11:27:12,606 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-node2.jboss.com%2F127.0.51.1-8009
+2020-07-02 11:27:12,626 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221053)] Started in 21s:394ms
+2020-07-02 11:27:21,762 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Runtime shutdown hook called, forceHalt: true
+2020-07-02 11:27:21,763 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Pausing Coyote HTTP/1.1 on http-node2.jboss.com%2F127.0.51.1-8080
+2020-07-02 11:27:21,765 INFO  [org.apache.coyote.http11.Http11Protocol] (JBoss Shutdown Hook) Stopping Coyote HTTP/1.1 on http-node2.jboss.com%2F127.0.51.1-8080
+2020-07-02 11:27:21,769 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Pausing Coyote AJP/1.3 on ajp-node2.jboss.com%2F127.0.51.1-8009
+2020-07-02 11:27:21,770 INFO  [org.apache.coyote.ajp.AjpProtocol] (JBoss Shutdown Hook) Stopping Coyote AJP/1.3 on ajp-node2.jboss.com%2F127.0.51.1-8009
+2020-07-02 11:27:21,824 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/web-console
+2020-07-02 11:27:21,869 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2020-07-02 11:27:21,875 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2020-07-02 11:27:21,895 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2020-07-02 11:27:21,904 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2020-07-02 11:27:21,922 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (JBoss Shutdown Hook) Stopping jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2020-07-02 11:27:21,926 INFO  [org.jboss.ejb3.EJBContainer] (JBoss Shutdown Hook) STOPPED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2020-07-02 11:27:21,953 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' from JNDI name 'java:JmsXA'
+2020-07-02 11:27:21,967 INFO  [org.jboss.jms.server.ServerPeer] (JBoss Shutdown Hook) JMS ServerPeer[0] stopped
+2020-07-02 11:27:21,974 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/invoker
+2020-07-02 11:27:22,069 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss Shutdown Hook) Stopping partition DefaultPartition
+2020-07-02 11:27:22,069 INFO  [org.jboss.cache.RPCManagerImpl] (JBoss Shutdown Hook) Disconnecting and closing the Channel
+2020-07-02 11:27:22,130 INFO  [org.jboss.cache.RPCManagerImpl] (JBoss Shutdown Hook) Stopping the RpcDispatcher
+2020-07-02 11:27:22,197 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss Shutdown Hook) Partition DefaultPartition stopped.
+2020-07-02 11:27:22,199 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss Shutdown Hook) Partition DefaultPartition destroyed.
+2020-07-02 11:27:22,590 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/juddi
+2020-07-02 11:27:22,591 INFO  [org.apache.juddi.registry.RegistryServlet] (JBoss Shutdown Hook) jUDDI Stopping: Cleaning up existing resources.
+2020-07-02 11:27:22,593 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jbossws
+2020-07-02 11:27:22,595 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/admin-console
+2020-07-02 11:27:22,598 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/
+2020-07-02 11:27:22,602 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/jmx-console
+2020-07-02 11:27:22,605 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (JBoss Shutdown Hook) undeploy, ctxPath=/test
+2020-07-02 11:27:22,607 INFO  [org.apache.catalina.core.StandardService] (JBoss Shutdown Hook) Stopping service jboss.web
+2020-07-02 11:27:22,663 INFO  [org.jboss.mail.MailService] (JBoss Shutdown Hook) Mail service 'java:/Mail' removed from JNDI
+2020-07-02 11:27:22,681 INFO  [org.jboss.jmx.adaptor.snmp.agent.SnmpAgentService] (JBoss Shutdown Hook) SNMP agent stopped
+2020-07-02 11:27:22,805 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (JBoss Shutdown Hook) Unbound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' from JNDI name 'java:DefaultDS'
+2020-07-02 11:27:22,827 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-02 11:27:22,828 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2020-07-02 11:27:22,829 INFO  [org.quartz.simpl.SimpleThreadPool] (JBoss Shutdown Hook) There are still 82 worker threads active. See javadoc runInThread(Runnable) for a possible explanation
+2020-07-02 11:27:22,829 INFO  [org.quartz.core.QuartzScheduler] (JBoss Shutdown Hook) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-02 11:27:22,953 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Stopping transaction recovery manager
+2020-07-02 11:27:22,954 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (JBoss Shutdown Hook) Destroying TransactionManagerService
+2020-07-02 11:27:23,109 INFO  [org.jboss.jdbc.HypersonicDatabase] (JBoss Shutdown Hook) Database standalone closed clean
+2020-07-02 11:27:24,241 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (JBoss Shutdown Hook) Shutdown complete
+2020-07-02 11:27:42,658 INFO  [org.jboss.web.WebService] (main) Using RMI server codebase: http://node2.jboss.com:8083/
+2020-07-02 11:27:45,384 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) JBoss Web Services - Stack Native Core
+2020-07-02 11:27:45,385 INFO  [org.jboss.wsf.stack.jbws.NativeServerConfig] (main) 3.1.2.GA
+2020-07-02 11:27:45,619 INFO  [org.jboss.dependency.plugins.AttributeCallbackItem] (main) Owner callback not implemented.
+2020-07-02 11:27:46,442 INFO  [org.jboss.logbridge.LogNotificationListener] (main) Adding notification listener for logging mbean "jboss.system:service=Logging,type=Log4jService" to server org.jboss.mx.server.MBeanServerImpl@25520567[ defaultDomain='jboss' ]
+2020-07-02 11:27:50,748 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@847984524{vfsfile:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/profileservice-secured.jar/}
+2020-07-02 11:27:50,748 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@847984524{vfsfile:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/profileservice-secured.jar/}
+2020-07-02 11:27:50,748 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@847984524{vfsfile:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/profileservice-secured.jar/}
+2020-07-02 11:27:50,748 INFO  [org.jboss.ejb3.deployers.Ejb3DependenciesDeployer] (main) Encountered deployment AbstractVFSDeploymentContext@847984524{vfsfile:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/profileservice-secured.jar/}
+2020-07-02 11:27:51,427 INFO  [org.jboss.iiop.CorbaNamingService] (main) CORBA Naming Started
+2020-07-02 11:27:52,430 INFO  [org.jboss.mx.remoting.service.JMXConnectorServerService] (main) JMX Connector server: service:jmx:rmi://node2.jboss.com/jndi/rmi://node2.jboss.com:1090/jmxconnector
+2020-07-02 11:27:52,532 INFO  [org.jboss.mail.MailService] (main) Mail Service bound to java:/Mail
+2020-07-02 11:27:52,833 INFO  [org.jboss.jmx.adaptor.snmp.agent.SnmpAgentService] (main) SNMP agent going active
+2020-07-02 11:27:54,075 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (main) Initializing partition DefaultPartition
+2020-07-02 11:27:54,103 INFO  [STDOUT] (JBoss System Threads(1)-3) 
+---------------------------------------------------------
+GMS: address is 127.0.51.1:33059 (cluster=DefaultPartition)
+---------------------------------------------------------
+2020-07-02 11:27:54,221 INFO  [org.jboss.cache.jmx.PlatformMBeanServerRegistration] (main) JBossCache MBeans were successfully registered to the platform mbean server.
+2020-07-02 11:27:54,227 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss System Threads(1)-3) Number of cluster members: 3
+2020-07-02 11:27:54,228 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (JBoss System Threads(1)-3) Other members: 2
+2020-07-02 11:27:54,275 INFO  [STDOUT] (main) 
+---------------------------------------------------------
+GMS: address is 127.0.51.1:33059 (cluster=DefaultPartition-HAPartitionCache)
+---------------------------------------------------------
+2020-07-02 11:27:54,342 INFO  [org.jboss.cache.RPCManagerImpl] (main) Received new cluster view: [127.0.50.1:45711|6] [127.0.50.1:45711, 127.0.52.1:51785, 127.0.51.1:33059]
+2020-07-02 11:27:54,367 INFO  [org.jboss.cache.statetransfer.LegacyStateTransferIntegrator] (Incoming-8,127.0.51.1:33059) Using version 4096
+2020-07-02 11:27:54,379 INFO  [org.jboss.cache.RPCManagerImpl] (main) Cache local address is 127.0.51.1:33059
+2020-07-02 11:27:54,381 INFO  [org.jboss.cache.RPCManagerImpl] (main) state was retrieved successfully (in 109 milliseconds)
+2020-07-02 11:27:54,396 INFO  [org.jboss.cache.factories.ComponentRegistry] (main) JBoss Cache version: JBossCache 'Cascabel' 3.1.0.GA
+2020-07-02 11:27:54,397 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (main) Fetching serviceState (will wait for 30000 milliseconds):
+2020-07-02 11:27:54,467 INFO  [org.jboss.ha.framework.interfaces.HAPartition.DefaultPartition] (main) serviceState was retrieved successfully (in 70 milliseconds)
+2020-07-02 11:27:54,549 INFO  [org.jboss.ha.jndi.HANamingService] (main) Started HAJNDI bootstrap; jnpPort=1100, backlog=50, bindAddress=node2.jboss.com/127.0.51.1
+2020-07-02 11:27:54,553 INFO  [org.jboss.ha.jndi.DetachedHANamingService$AutomaticDiscovery] (main) Listening on /127.0.51.1:1102, group=230.0.0.4, HA-JNDI address=127.0.51.1:1100
+2020-07-02 11:27:55,026 INFO  [org.jboss.invocation.unified.server.UnifiedInvokerHA] (main) Service name is jboss:service=invoker,type=unifiedha
+2020-07-02 11:27:55,390 WARN  [org.jboss.jms.server.jbosssx.JBossASSecurityMetadataStore] (main) WARNING! POTENTIAL SECURITY RISK. It has been detected that the MessageSucker component which sucks messages from one node to another has not had its password changed from the installation default. Please see the JBoss Messaging user guide for instructions on how to do this.
+2020-07-02 11:27:55,406 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2020-07-02 11:27:55,524 WARN  [org.jboss.annotation.factory.AnnotationCreator] (main) No ClassLoader provided, using TCCL: org.jboss.managed.api.annotation.ManagementComponent
+2020-07-02 11:27:55,570 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) JBossTS Transaction Service (JTA version - tag:JBOSSTS_4_6_1_GA) - JBoss Inc.
+2020-07-02 11:27:55,570 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Setting up property manager MBean and JMX layer
+2020-07-02 11:27:55,714 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Initializing recovery manager
+2020-07-02 11:27:55,800 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Recovery manager configured
+2020-07-02 11:27:55,800 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Binding TransactionManager JNDI Reference
+2020-07-02 11:27:55,819 INFO  [com.arjuna.ats.jbossatx.jta.TransactionManagerService] (main) Starting transaction recovery manager
+2020-07-02 11:27:56,057 INFO  [org.apache.catalina.core.AprLifecycleListener] (main) The Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2020-07-02 11:27:56,094 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Initializing Coyote HTTP/1.1 on http-node2.jboss.com%2F127.0.51.1-8080
+2020-07-02 11:27:56,095 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Initializing Coyote AJP/1.3 on ajp-node2.jboss.com%2F127.0.51.1-8009
+2020-07-02 11:27:56,107 INFO  [org.apache.catalina.core.StandardService] (main) Starting service jboss.web
+2020-07-02 11:27:56,109 INFO  [org.apache.catalina.core.StandardEngine] (main) Starting Servlet Engine: JBoss Web/2.1.3.GA
+2020-07-02 11:27:56,136 INFO  [org.apache.catalina.startup.Catalina] (main) Server startup in 40 ms
+2020-07-02 11:27:56,146 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/web-console
+2020-07-02 11:27:57,173 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/juddi
+2020-07-02 11:27:57,193 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Loading jUDDI configuration.
+2020-07-02 11:27:57,193 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Resources loaded from: /WEB-INF/juddi.properties
+2020-07-02 11:27:57,193 INFO  [org.apache.juddi.registry.RegistryServlet] (main) Initializing jUDDI components.
+2020-07-02 11:27:57,268 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/invoker
+2020-07-02 11:27:57,291 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jbossws
+2020-07-02 11:27:57,343 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/jboss-local-jdbc.rar/META-INF/ra.xml
+2020-07-02 11:27:57,353 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/jboss-xa-jdbc.rar/META-INF/ra.xml
+2020-07-02 11:27:57,377 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/jms-ra.rar/META-INF/ra.xml
+2020-07-02 11:27:57,389 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/mail-ra.rar/META-INF/ra.xml
+2020-07-02 11:27:57,441 INFO  [org.jboss.resource.deployers.RARDeployment] (main) Required license terms exist, view vfszip:/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/deploy/quartz-ra.rar/META-INF/ra.xml
+2020-07-02 11:27:57,491 INFO  [org.quartz.simpl.SimpleThreadPool] (main) Job execution threads will use class loader of thread: main
+2020-07-02 11:27:57,513 INFO  [org.quartz.core.QuartzScheduler] (main) Quartz Scheduler v.1.5.2 created.
+2020-07-02 11:27:57,515 INFO  [org.quartz.simpl.RAMJobStore] (main) RAMJobStore initialized.
+2020-07-02 11:27:57,515 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2020-07-02 11:27:57,515 INFO  [org.quartz.impl.StdSchedulerFactory] (main) Quartz scheduler version: 1.5.2
+2020-07-02 11:27:57,515 INFO  [org.quartz.core.QuartzScheduler] (main) Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2020-07-02 11:27:57,831 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=DataSourceBinding,name=DefaultDS' to JNDI name 'java:DefaultDS'
+2020-07-02 11:27:58,140 INFO  [org.jboss.jms.server.ServerPeer] (main) JBoss Messaging 1.4.3.GA server [0] started
+2020-07-02 11:27:58,263 INFO  [STDOUT] (main) 
+---------------------------------------------------------
+GMS: address is 127.0.51.1:33059 (cluster=MessagingPostOffice-CTRL)
+---------------------------------------------------------
+2020-07-02 11:27:58,348 INFO  [org.jboss.messaging.core.impl.postoffice.GroupMember] (main) org.jboss.messaging.core.impl.postoffice.GroupMember$ControlMembershipListener@2a9d77f4 got new view [127.0.50.1:45711|6] [127.0.50.1:45711, 127.0.52.1:51785, 127.0.51.1:33059], old view is null
+2020-07-02 11:27:58,349 INFO  [org.jboss.messaging.core.impl.postoffice.GroupMember] (main) I am (127.0.51.1:33059)
+2020-07-02 11:27:58,349 INFO  [org.jboss.messaging.core.impl.postoffice.GroupMember] (main) New Members : 3 ([127.0.50.1:45711, 127.0.52.1:51785, 127.0.51.1:33059])
+2020-07-02 11:27:58,350 INFO  [org.jboss.messaging.core.impl.postoffice.GroupMember] (main) All Members : 3 ([127.0.50.1:45711, 127.0.52.1:51785, 127.0.51.1:33059])
+2020-07-02 11:27:58,451 INFO  [STDOUT] (main) 
+---------------------------------------------------------
+GMS: address is 127.0.51.1:7900 (cluster=MessagingPostOffice-DATA)
+---------------------------------------------------------
+2020-07-02 11:27:58,519 ERROR [org.jboss.messaging.util.ExceptionUtil] (main) org.jboss.messaging.core.jmx.MessagingPostOfficeService@47bb8a31 startService
+java.lang.IllegalArgumentException: Cannot start post office since there is already a post office in the cluster with the same node id (0). Are you sure you have given each node a unique node id during installation?
+	at org.jboss.messaging.core.impl.postoffice.MessagingPostOffice.start(MessagingPostOffice.java:372)
+	at org.jboss.messaging.core.jmx.MessagingPostOfficeService.startService(MessagingPostOfficeService.java:462)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:376)
+	at org.jboss.system.ServiceMBeanSupport.start(ServiceMBeanSupport.java:269)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:157)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:96)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:138)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:90)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:140)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:90)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:668)
+	at org.jboss.system.microcontainer.ServiceProxy.invoke(ServiceProxy.java:206)
+	at com.sun.proxy.$Proxy39.start(Unknown Source)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:42)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:37)
+	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleInstallAction(SimpleControllerContextAction.java:62)
+	at org.jboss.dependency.plugins.action.AccessControllerContextAction.install(AccessControllerContextAction.java:71)
+	at org.jboss.dependency.plugins.AbstractControllerContextActions.install(AbstractControllerContextActions.java:51)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.system.microcontainer.ServiceControllerContext.install(ServiceControllerContext.java:286)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.ServiceController.doChange(ServiceController.java:688)
+	at org.jboss.system.ServiceController.start(ServiceController.java:460)
+	at org.jboss.system.deployers.ServiceDeployer.start(ServiceDeployer.java:163)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:99)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:46)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1178)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.repository.ProfileDeployAction.install(ProfileDeployAction.java:70)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileAction.install(AbstractProfileAction.java:53)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.install(AbstractProfileService.java:361)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.activateProfile(AbstractProfileService.java:306)
+	at org.jboss.system.server.profileservice.ProfileServiceBootstrap.start(ProfileServiceBootstrap.java:271)
+	at org.jboss.bootstrap.AbstractServerImpl.start(AbstractServerImpl.java:461)
+	at org.jboss.Main.boot(Main.java:221)
+	at org.jboss.Main$1.run(Main.java:556)
+	at java.lang.Thread.run(Thread.java:745)
+2020-07-02 11:27:58,520 ERROR [org.jboss.kernel.plugins.dependency.AbstractKernelController] (main) Error installing to Start: name=jboss.messaging:service=PostOffice state=Create mode=Manual requiredState=Installed
+java.lang.IllegalArgumentException: Cannot start post office since there is already a post office in the cluster with the same node id (0). Are you sure you have given each node a unique node id during installation?
+	at org.jboss.messaging.core.impl.postoffice.MessagingPostOffice.start(MessagingPostOffice.java:372)
+	at org.jboss.messaging.core.jmx.MessagingPostOfficeService.startService(MessagingPostOfficeService.java:462)
+	at org.jboss.system.ServiceMBeanSupport.jbossInternalStart(ServiceMBeanSupport.java:376)
+	at org.jboss.system.ServiceMBeanSupport.start(ServiceMBeanSupport.java:269)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.jboss.mx.interceptor.ReflectedDispatcher.invoke(ReflectedDispatcher.java:157)
+	at org.jboss.mx.server.Invocation.dispatch(Invocation.java:96)
+	at org.jboss.mx.interceptor.AbstractInterceptor.invoke(AbstractInterceptor.java:138)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:90)
+	at org.jboss.mx.interceptor.ModelMBeanOperationInterceptor.invoke(ModelMBeanOperationInterceptor.java:140)
+	at org.jboss.mx.server.Invocation.invoke(Invocation.java:90)
+	at org.jboss.mx.server.AbstractMBeanInvoker.invoke(AbstractMBeanInvoker.java:264)
+	at org.jboss.mx.server.MBeanServerImpl.invoke(MBeanServerImpl.java:668)
+	at org.jboss.system.microcontainer.ServiceProxy.invoke(ServiceProxy.java:206)
+	at com.sun.proxy.$Proxy39.start(Unknown Source)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:42)
+	at org.jboss.system.microcontainer.StartStopLifecycleAction.installAction(StartStopLifecycleAction.java:37)
+	at org.jboss.dependency.plugins.action.SimpleControllerContextAction.simpleInstallAction(SimpleControllerContextAction.java:62)
+	at org.jboss.dependency.plugins.action.AccessControllerContextAction.install(AccessControllerContextAction.java:71)
+	at org.jboss.dependency.plugins.AbstractControllerContextActions.install(AbstractControllerContextActions.java:51)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.system.microcontainer.ServiceControllerContext.install(ServiceControllerContext.java:286)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.ServiceController.doChange(ServiceController.java:688)
+	at org.jboss.system.ServiceController.start(ServiceController.java:460)
+	at org.jboss.system.deployers.ServiceDeployer.start(ServiceDeployer.java:163)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:99)
+	at org.jboss.system.deployers.ServiceDeployer.deploy(ServiceDeployer.java:46)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractSimpleRealDeployer.internalDeploy(AbstractSimpleRealDeployer.java:62)
+	at org.jboss.deployers.spi.deployer.helpers.AbstractRealDeployer.deploy(AbstractRealDeployer.java:50)
+	at org.jboss.deployers.plugins.deployers.DeployerWrapper.deploy(DeployerWrapper.java:171)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doDeploy(DeployersImpl.java:1439)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1157)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.doInstallParentFirst(DeployersImpl.java:1178)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.install(DeployersImpl.java:1098)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.deployers.plugins.deployers.DeployersImpl.process(DeployersImpl.java:781)
+	at org.jboss.deployers.plugins.main.MainDeployerImpl.process(MainDeployerImpl.java:702)
+	at org.jboss.system.server.profileservice.repository.MainDeployerAdapter.process(MainDeployerAdapter.java:117)
+	at org.jboss.system.server.profileservice.repository.ProfileDeployAction.install(ProfileDeployAction.java:70)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileAction.install(AbstractProfileAction.java:53)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.install(AbstractProfileService.java:361)
+	at org.jboss.dependency.plugins.AbstractControllerContext.install(AbstractControllerContext.java:348)
+	at org.jboss.dependency.plugins.AbstractController.install(AbstractController.java:1631)
+	at org.jboss.dependency.plugins.AbstractController.incrementState(AbstractController.java:934)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:1082)
+	at org.jboss.dependency.plugins.AbstractController.resolveContexts(AbstractController.java:984)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:822)
+	at org.jboss.dependency.plugins.AbstractController.change(AbstractController.java:553)
+	at org.jboss.system.server.profileservice.repository.AbstractProfileService.activateProfile(AbstractProfileService.java:306)
+	at org.jboss.system.server.profileservice.ProfileServiceBootstrap.start(ProfileServiceBootstrap.java:271)
+	at org.jboss.bootstrap.AbstractServerImpl.start(AbstractServerImpl.java:461)
+	at org.jboss.Main.boot(Main.java:221)
+	at org.jboss.Main$1.run(Main.java:556)
+	at java.lang.Thread.run(Thread.java:745)
+2020-07-02 11:27:58,590 INFO  [org.jboss.resource.connectionmanager.ConnectionFactoryBindingService] (main) Bound ConnectionManager 'jboss.jca:service=ConnectionFactoryBinding,name=JmsXA' to JNDI name 'java:JmsXA'
+2020-07-02 11:27:58,922 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Created KernelDeployment for: profileservice-secured.jar
+2020-07-02 11:27:58,924 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2020-07-02 11:27:58,925 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2020-07-02 11:27:58,925 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2020-07-02 11:27:58,925 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2020-07-02 11:27:58,925 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2020-07-02 11:27:58,925 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2020-07-02 11:27:58,925 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.profileservice.spi.ProfileService
+2020-07-02 11:27:58,925 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote
+2020-07-02 11:27:58,925 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService
+2020-07-02 11:27:58,925 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2020-07-02 11:27:58,925 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2020-07-02 11:27:58,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2020-07-02 11:27:58,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2020-07-02 11:27:58,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2020-07-02 11:27:58,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2020-07-02 11:27:58,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager
+2020-07-02 11:27:58,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.deploy.DeploymentManager
+2020-07-02 11:27:58,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureDeploymentManager/remote
+2020-07-02 11:27:58,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2020-07-02 11:27:58,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) installing bean: jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2020-07-02 11:27:58,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   with dependencies:
+2020-07-02 11:27:58,926 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and demands:
+2020-07-02 11:27:58,927 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jboss.ejb:service=EJBTimerService
+2020-07-02 11:27:58,927 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main)   and supplies:
+2020-07-02 11:27:58,927 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView
+2020-07-02 11:27:58,927 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	Class:org.jboss.deployers.spi.management.ManagementView
+2020-07-02 11:27:58,927 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) 	jndi:SecureManagementView/remote
+2020-07-02 11:27:58,927 INFO  [org.jboss.ejb3.deployers.JBossASKernel] (main) Added bean(jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3) to KernelDeployment of: profileservice-secured.jar
+2020-07-02 11:27:58,932 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@602923d7{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2020-07-02 11:27:58,932 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@4b3988f1{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2020-07-02 11:27:58,932 INFO  [org.jboss.ejb3.endpoint.deployers.EJB3EndpointDeployer] (main) Deploy AbstractBeanMetaData@6d8b9cd3{name=jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3_endpoint bean=org.jboss.ejb3.endpoint.deployers.impl.EndpointImpl properties=[container] constructor=null autowireCandidate=true}
+2020-07-02 11:27:59,026 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureDeploymentManager,service=EJB3
+2020-07-02 11:27:59,036 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureDeploymentManager ejbName: SecureDeploymentManager
+2020-07-02 11:27:59,078 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureDeploymentManager/remote - EJB3.x Default Remote Business Interface
+	SecureDeploymentManager/remote-org.jboss.deployers.spi.management.deploy.DeploymentManager - EJB3.x Remote Business Interface
+
+2020-07-02 11:27:59,122 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureManagementView,service=EJB3
+2020-07-02 11:27:59,122 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureManagementView ejbName: SecureManagementView
+2020-07-02 11:27:59,133 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureManagementView/remote - EJB3.x Default Remote Business Interface
+	SecureManagementView/remote-org.jboss.deployers.spi.management.ManagementView - EJB3.x Remote Business Interface
+
+2020-07-02 11:27:59,170 INFO  [org.jboss.ejb3.session.SessionSpecContainer] (main) Starting jboss.j2ee:jar=profileservice-secured.jar,name=SecureProfileService,service=EJB3
+2020-07-02 11:27:59,171 INFO  [org.jboss.ejb3.EJBContainer] (main) STARTED EJB: org.jboss.profileservice.ejb.SecureProfileServiceBean ejbName: SecureProfileService
+2020-07-02 11:27:59,178 INFO  [org.jboss.ejb3.proxy.impl.jndiregistrar.JndiSessionRegistrarBase] (main) Binding the following Entries in Global JNDI:
+
+	SecureProfileService/remote - EJB3.x Default Remote Business Interface
+	SecureProfileService/remote-org.jboss.profileservice.spi.ProfileService - EJB3.x Remote Business Interface
+
+2020-07-02 11:27:59,253 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/admin-console
+2020-07-02 11:27:59,322 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (main) Initializing Mojarra (1.2_12-b01-FCS) for context '/admin-console'
+2020-07-02 11:28:00,377 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/
+2020-07-02 11:28:00,423 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/jmx-console
+2020-07-02 11:28:00,474 INFO  [org.jboss.web.tomcat.service.deployers.TomcatDeployment] (main) deploy, ctxPath=/test
+2020-07-02 11:28:00,679 ERROR [org.jboss.system.server.profileservice.ProfileServiceBootstrap] (main) Failed to load profile: Summary of incomplete deployments (SEE PREVIOUS ERRORS FOR DETAILS):
+
+DEPLOYMENTS MISSING DEPENDENCIES:
+  Deployment "jboss.messaging.connectionfactory:service=ClusterPullConnectionFactory" is missing the following dependencies:
+    Dependency "jboss.messaging:service=PostOffice" (should be in state "Create", but is actually in state "**ERROR**")
+  Deployment "jboss.messaging.connectionfactory:service=ClusteredConnectionFactory" is missing the following dependencies:
+    Dependency "jboss.messaging:service=PostOffice" (should be in state "Create", but is actually in state "**ERROR**")
+  Deployment "jboss.messaging.connectionfactory:service=ConnectionFactory" is missing the following dependencies:
+    Dependency "jboss.messaging:service=PostOffice" (should be in state "Create", but is actually in state "**ERROR**")
+  Deployment "jboss.messaging.destination:name=DLQ,service=Queue" is missing the following dependencies:
+    Dependency "jboss.messaging:service=PostOffice" (should be in state "Create", but is actually in state "**ERROR**")
+  Deployment "jboss.messaging.destination:name=ExpiryQueue,service=Queue" is missing the following dependencies:
+    Dependency "jboss.messaging:service=PostOffice" (should be in state "Create", but is actually in state "**ERROR**")
+
+DEPLOYMENTS IN ERROR:
+  Deployment "jboss.messaging:service=PostOffice" is in error due to the following reason(s): java.lang.IllegalArgumentException: Cannot start post office since there is already a post office in the cluster with the same node id (0). Are you sure you have given each node a unique node id during installation?, **ERROR**
+
+2020-07-02 11:28:00,687 INFO  [org.apache.coyote.http11.Http11Protocol] (main) Starting Coyote HTTP/1.1 on http-node2.jboss.com%2F127.0.51.1-8080
+2020-07-02 11:28:00,732 INFO  [org.apache.coyote.ajp.AjpProtocol] (main) Starting Coyote AJP/1.3 on ajp-node2.jboss.com%2F127.0.51.1-8009
+2020-07-02 11:28:00,752 INFO  [org.jboss.bootstrap.microcontainer.ServerImpl] (main) JBoss (Microcontainer) [5.1.0.GA (build: SVNTag=JBoss_5_1_0_GA date=200905221053)] Started in 21s:591ms
+2020-07-02 11:33:52,911 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Scan failed
+java.io.IOException: Error listing files: /home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/tmp/3j011-qkgknp-kc4y0dqv-1-kc4y0jfy-v/admin-console.war
+	at org.jboss.virtual.plugins.context.file.FileHandler.getChildren(FileHandler.java:225)
+	at org.jboss.virtual.plugins.context.AbstractVFSContext.getChildren(AbstractVFSContext.java:219)
+	at org.jboss.virtual.plugins.context.AbstractVFSContext.visit(AbstractVFSContext.java:336)
+	at org.jboss.virtual.plugins.context.AbstractVFSContext.visit(AbstractVFSContext.java:306)
+	at org.jboss.virtual.VFS.visit(VFS.java:421)
+	at org.jboss.virtual.VirtualFile.visit(VirtualFile.java:437)
+	at org.jboss.deployers.vfs.spi.structure.modified.SynchWrapperModificationChecker.hasStructureBeenModifed(SynchWrapperModificationChecker.java:90)
+	at org.jboss.deployers.vfs.spi.structure.modified.AbstractStructureModificationChecker.hasStructureBeenModified(AbstractStructureModificationChecker.java:195)
+	at org.jboss.deployers.vfs.spi.structure.modified.AbstractStructureModificationChecker.hasStructureBeenModified(AbstractStructureModificationChecker.java:138)
+	at org.jboss.system.server.profileservice.repository.HotDeploymentRepository.getModifiedDeployments(HotDeploymentRepository.java:120)
+	at org.jboss.system.server.profile.repository.AbstractProfile.getModifiedDeployments(AbstractProfile.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:336)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2020-07-02 11:33:57,916 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Scan failed
+java.io.IOException: Error listing files: /home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/tmp/3j011-qkgknp-kc4y0dqv-1-kc4y0jfy-v/admin-console.war
+	at org.jboss.virtual.plugins.context.file.FileHandler.getChildren(FileHandler.java:225)
+	at org.jboss.virtual.plugins.context.AbstractVFSContext.getChildren(AbstractVFSContext.java:219)
+	at org.jboss.virtual.plugins.context.AbstractVFSContext.visit(AbstractVFSContext.java:336)
+	at org.jboss.virtual.plugins.context.AbstractVFSContext.visit(AbstractVFSContext.java:306)
+	at org.jboss.virtual.VFS.visit(VFS.java:421)
+	at org.jboss.virtual.VirtualFile.visit(VirtualFile.java:437)
+	at org.jboss.deployers.vfs.spi.structure.modified.SynchWrapperModificationChecker.hasStructureBeenModifed(SynchWrapperModificationChecker.java:90)
+	at org.jboss.deployers.vfs.spi.structure.modified.AbstractStructureModificationChecker.hasStructureBeenModified(AbstractStructureModificationChecker.java:195)
+	at org.jboss.deployers.vfs.spi.structure.modified.AbstractStructureModificationChecker.hasStructureBeenModified(AbstractStructureModificationChecker.java:138)
+	at org.jboss.system.server.profileservice.repository.HotDeploymentRepository.getModifiedDeployments(HotDeploymentRepository.java:120)
+	at org.jboss.system.server.profile.repository.AbstractProfile.getModifiedDeployments(AbstractProfile.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:336)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2020-07-02 11:34:02,921 WARN  [org.jboss.system.server.profileservice.hotdeploy.HDScanner] (HDScanner) Scan failed
+java.io.IOException: Error listing files: /home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/server/sp2/tmp/3j011-qkgknp-kc4y0dqv-1-kc4y0jfy-v/admin-console.war
+	at org.jboss.virtual.plugins.context.file.FileHandler.getChildren(FileHandler.java:225)
+	at org.jboss.virtual.plugins.context.AbstractVFSContext.getChildren(AbstractVFSContext.java:219)
+	at org.jboss.virtual.plugins.context.AbstractVFSContext.visit(AbstractVFSContext.java:336)
+	at org.jboss.virtual.plugins.context.AbstractVFSContext.visit(AbstractVFSContext.java:306)
+	at org.jboss.virtual.VFS.visit(VFS.java:421)
+	at org.jboss.virtual.VirtualFile.visit(VirtualFile.java:437)
+	at org.jboss.deployers.vfs.spi.structure.modified.SynchWrapperModificationChecker.hasStructureBeenModifed(SynchWrapperModificationChecker.java:90)
+	at org.jboss.deployers.vfs.spi.structure.modified.AbstractStructureModificationChecker.hasStructureBeenModified(AbstractStructureModificationChecker.java:195)
+	at org.jboss.deployers.vfs.spi.structure.modified.AbstractStructureModificationChecker.hasStructureBeenModified(AbstractStructureModificationChecker.java:138)
+	at org.jboss.system.server.profileservice.repository.HotDeploymentRepository.getModifiedDeployments(HotDeploymentRepository.java:120)
+	at org.jboss.system.server.profile.repository.AbstractProfile.getModifiedDeployments(AbstractProfile.java:128)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.scan(HDScanner.java:336)
+	at org.jboss.system.server.profileservice.hotdeploy.HDScanner.run(HDScanner.java:255)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:304)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:178)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)

@@ -1,4 +1,0 @@
-<JBossIDP xmlns="urn:jboss:identity-federation:config:1.0" >
-	<IdentityURL>http://fedserver.jboss.com:8080/idp</IdentityURL> 
-</JBossIDP>
-
