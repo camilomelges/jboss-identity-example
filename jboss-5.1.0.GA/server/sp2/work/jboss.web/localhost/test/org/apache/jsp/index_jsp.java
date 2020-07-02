@@ -60,8 +60,16 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\r\n");
 
 	String serverName = request.getServerName();
-	String indomainPartner = null;
+	if(serverName.indexOf("jboss.com")!=-1)
+	{
+		serverName = serverName.replace("jboss.com","jboss.com");
+	}
+	else
+	{
+		serverName = serverName.replace("jboss.com","jboss.com");
+	}
 	
+	String indomainPartner = null;
 	if(request.getServerName().indexOf("node1")!=-1)
 	{
 		indomainPartner = request.getServerName().replace("node1","node2");

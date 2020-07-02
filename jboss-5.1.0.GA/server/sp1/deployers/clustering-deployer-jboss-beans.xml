@@ -2,7 +2,7 @@
 
 <!--
  Clustering-related deployers
-$Id: clustering-deployer-jboss-beans-non-clustered.xml 85945 2009-03-16 19:45:12Z dimitris@jboss.org $
+$Id: clustering-deployer-jboss-beans.xml 85945 2009-03-16 19:45:12Z dimitris@jboss.org $
 -->
 <deployment xmlns="urn:jboss:bean-deployer:2.0">
    
@@ -38,13 +38,12 @@ $Id: clustering-deployer-jboss-beans-non-clustered.xml 85945 2009-03-16 19:45:12
       in order to trigger a deployment failure if a <distributable/> webapp 
       is deployed.
    -->
-   <!-- 
    <bean name="WebAppClusteringDependencyDeployer" 
          class="org.jboss.web.tomcat.service.deployers.ClusteringDependencyDeployer">
       
+      <!-- Clustered webapps get their cache from this service -->
       <property name="clusterCacheDependency">jboss.cache:service=CacheManager</property>
       
    </bean> 
-   -->
 
 </deployment>
