@@ -61,6 +61,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
 
 	String indomainPartner = null;
 	String serverName = request.getServerName();
+	System.out.println(request.getParameter("SAMLResponse"));
 	if(request.getServerName().indexOf("app1")!=-1)
 	{
 		indomainPartner = request.getServerName().replace("app1","app2");
@@ -93,7 +94,7 @@ if(request.getUserPrincipal()!=null){
       out.write(":8080/app/secure/get/result.jsp\">Cross Domain Get Tester</a>\r\n");
       out.write("</body>\r\n");
       out.write("\r\n");
-      out.write("</html>");
+      out.write("</html>\r\n");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
         out = _jspx_out;
