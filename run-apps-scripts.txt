@@ -1,0 +1,9 @@
+jboss4
+/home/milo/projects/az/jboss-identity-example/jboss-4.2.3.GA/bin/run.sh -c app1 -b app1.jboss.com
+/home/milo/projects/az/jboss-identity-example/jboss-4.2.3.GA/bin/run.sh -c app2 -b app2.jboss.com
+/home/milo/projects/az/jboss-identity-example/jboss-4.2.3.GA/bin/run.sh -c idp -b fedserver.jboss.com
+
+jboss5
+/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/bin/run.sh -c app1 -b app1.jboss.com
+/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/bin/run.sh -c app2 -b app2.jboss.com
+/home/milo/projects/az/jboss-identity-example/jboss-5.1.0.GA/bin/run.sh -c idp -b fedserver.jboss.com
